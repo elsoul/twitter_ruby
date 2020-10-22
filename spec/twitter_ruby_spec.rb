@@ -6,6 +6,8 @@ RSpec.describe TwitterRuby do
   describe "Configuration" do
     it "Should be able to set configuration" do
       TwitterRuby.configure do |config|
+        config.consumer_key = "abc123"
+        config.consumer_secret = "abc123"
         config.access_token = "abc123"
         config.access_token_secret = "abc123"
       end
