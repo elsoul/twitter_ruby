@@ -3,7 +3,14 @@ RSpec.describe TwitterRuby do
     expect(TwitterRuby::VERSION).not_to be nil
   end
 
-  it "does something useful" do
-    expect(false).to eq(false)
+  describe "Configuration" do
+    it "Should be able to set configuration" do
+      TwitterRuby.configure do |config|
+        config.access_token = "abc123"
+        config.access_token_secret = "abc123"
+      end
+
+      expect(TwitterRuby.configuration.access_token).to eq "abc123"
+    end
   end
 end
