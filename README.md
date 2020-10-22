@@ -1,5 +1,8 @@
-[![TwitterRuby](https://firebasestorage.googleapis.com/v0/b/el-quest.appspot.com/o/mediaLibrary%2F1603381767813_Twitter_Logo_WhiteOnBlue.png?alt=media&token=d53c8508-a81a-4bbd-966a-97d880b13e8b)](https://developer.twitter.com/en/docs)
-
+<p align="center">
+  <a aria-label="TwitterRuby" href="https://developer.twitter.com/en/docs">
+    <img src="https://firebasestorage.googleapis.com/v0/b/el-quest.appspot.com/o/mediaLibrary%2F1603381767813_Twitter_Logo_WhiteOnBlue.png?alt=media&token=d53c8508-a81a-4bbd-966a-97d880b13e8b">
+  </a>
+</p>
 
 # Twitter Ruby Wrapper
 
